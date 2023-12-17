@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/models/sample.model.ts"],
+  "sourcesContent": ["export default class SampleModel {\n    // Just a placeholder for this example\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAAO,YAA0B;AAAA;AAEjC;",
+  "names": []
+}

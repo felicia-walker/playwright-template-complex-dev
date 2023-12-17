@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/services/sample.service.ts"],
+  "sourcesContent": ["export default class SampleService {\n    // Just a placeholder for this example\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAAO,cAA4B;AAAA;AAEnC;",
+  "names": []
+}

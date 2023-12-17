@@ -1,7 +1,7 @@
 {
-    "name": "ui-library",
+    "name": "data-library",
     "version": "1.0.0",
-    "description": "An example library of Playwright wrapped UI calls",
+    "description": "An example library of domain specific data objects",
     "repository": {
         "type": "git",
         "url": "https://github.com/felicia-walker/playwright-template-complex-dev"
@@ -14,11 +14,11 @@
     "types": "index.d.ts",
     "typesVersions": {
         "*": {
-            "actions/*": [
-                "dist/types/actions/*.d.ts"
+            "factories/*": [
+                "dist/types/factories/*.d.ts"
             ],
-            "pages/*": [
-                "dist/types/pages/*.d.ts"
+            "models/*": [
+                "dist/types/models/*.d.ts"
             ],
             "util/*": [
                 "dist/types/util/*.d.ts"
@@ -31,15 +31,15 @@
             "import": "./dist/esm/index.js",
             "require": "./dist/cjs/index.js"
         },
-        "./actions/*": {
-            "types": "./dist/types/actions/*.d.ts",
-            "import": "./dist/esm/actions/*.js",
-            "require": "./dist/cjs/actions/*.js"
+        "./factories/*": {
+            "types": "./dist/types/factories/*.d.ts",
+            "import": "./dist/esm/factories/*.js",
+            "require": "./dist/cjs/factories/*.js"
         },
-        "./pages/*": {
-            "types": "./dist/types/pages/*.d.ts",
-            "import": "./dist/esm/pages/*.js",
-            "require": "./dist/cjs/pages/*.js"
+        "./models/*": {
+            "types": "./dist/types/models/*.d.ts",
+            "import": "./dist/esm/models/*.js",
+            "require": "./dist/cjs/models/*.js"
         },
         "./util/*": {
             "types": "./dist/types/util/*.d.ts",
@@ -54,10 +54,7 @@
         "changelog.md"
     ],
     "dependencies": {
-        "@playwright/test": "^1.31.1",
-        "data-library": "^1.0.0",
-        "path": "^0.12.7",
-        "playwright": "^1.31.1"
+        "path": "^0.12.7"
     },
     "devDependencies": {
         "@types/glob": "^8.0.0",

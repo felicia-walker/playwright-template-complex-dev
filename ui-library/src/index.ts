@@ -1,5 +1,5 @@
 export * from './util/util'
 
-export * from './k6-libs/k6-summary'
+export { default as SampleActions } from './actions/sample.actions'
 
-export { default as SampleService } from './services/sample.service'
+export { default as SamplePage } from './pages/sample.page'

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/index.ts"],
+  "sourcesContent": ["export * from './util/util'\n\nexport { default as SampleFactory } from './factories/sample.factory'\n\nexport { default as SampleModel } from './models/sample.model'\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,wBAAc,wBAAd;AAEA,oBAAyC;AAEzC,IAAAA,iBAAuC;",
+  "names": ["import_sample"]
+}

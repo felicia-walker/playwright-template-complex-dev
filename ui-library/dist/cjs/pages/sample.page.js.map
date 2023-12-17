@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/pages/sample.page.ts"],
+  "sourcesContent": ["export default class SamplePage {\n    // Just a placeholder for this example\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAAO,WAAyB;AAAA;AAEhC;",
+  "names": []
+}

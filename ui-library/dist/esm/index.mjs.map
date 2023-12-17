@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/util/util.ts", "../../src/actions/sample.actions.ts", "../../src/pages/sample.page.ts"],
+  "sourcesContent": ["export function sampleHelper() {\n    return true\n}\n", "export default class SampleActions {\n    // Just a placeholder for this example\n}\n", "export default class SamplePage {\n    // Just a placeholder for this example\n}\n"],
+  "mappings": ";AAAO,SAAS,eAAe;AAC3B,SAAO;AACX;;;ACFA,IAAqB,gBAArB,MAAmC;AAAA;AAEnC;;;ACFA,IAAqB,aAArB,MAAgC;AAAA;AAEhC;",
+  "names": []
+}

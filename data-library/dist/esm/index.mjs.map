@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/util/util.ts", "../../src/factories/sample.factory.ts", "../../src/models/sample.model.ts"],
+  "sourcesContent": ["export function sampleHelper() {\n    return true\n}\n", "export default class SampleFactory {\n    // Just a placeholder for this example\n}\n", "export default class SampleModel {\n    // Just a placeholder for this example\n}\n"],
+  "mappings": ";AAAO,SAAS,eAAe;AAC3B,SAAO;AACX;;;ACFA,IAAqB,gBAArB,MAAmC;AAAA;AAEnC;;;ACFA,IAAqB,cAArB,MAAiC;AAAA;AAEjC;",
+  "names": []
+}

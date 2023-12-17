@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/util/util.ts", "../../src/providers/sample.provider.ts", "../../src/services/sample.service.ts", "../../src/models/sample.model.ts"],
+  "sourcesContent": ["export function sampleHelper() {\n    return true\n}\n", "export default class SampleProvider {\n    // Just a placeholder for this example\n}\n", "export default class SampleService {\n    // Just a placeholder for this example\n}\n", "export default class SampleModel {\n    // Just a placeholder for this example\n}\n"],
+  "mappings": ";AAAO,SAAS,eAAe;AAC3B,SAAO;AACX;;;ACFA,IAAqB,iBAArB,MAAoC;AAAA;AAEpC;;;ACFA,IAAqB,gBAArB,MAAmC;AAAA;AAEnC;;;ACFA,IAAqB,cAArB,MAAiC;AAAA;AAEjC;",
+  "names": []
+}

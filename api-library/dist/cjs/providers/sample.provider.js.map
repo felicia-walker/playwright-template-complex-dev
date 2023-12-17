@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/providers/sample.provider.ts"],
+  "sourcesContent": ["export default class SampleProvider {\n    // Just a placeholder for this example\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAAO,eAA6B;AAAA;AAEpC;",
+  "names": []
+}
